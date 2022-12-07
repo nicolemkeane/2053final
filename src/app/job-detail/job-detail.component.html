@@ -1,0 +1,12 @@
+<div *ngIf="job">
+
+    <h2>{{ job.name | uppercase }} Details</h2>
+    <div><span>id: </span>{{job.id}}</div>
+    <div>
+      <label for="job-name">Job name: </label>
+      <input id="job-name" [(ngModel)]="job.name" placeholder="name">
+    </div>
+
+    <button type="button" (click)="goBack()">go back</button>
+  
+  </div>
