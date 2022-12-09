@@ -3,5 +3,6 @@ export interface Job {
     name: string;
     location: string;
     description: string,
-    source: string
+    source: string,
+    modality: string
 }
