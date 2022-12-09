@@ -1,0 +1,62 @@
+.jobs {
+    background-color: rgb(6, 67, 189);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .singlejobs {
+    background-color: rgb(212, 229, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  .link{
+    font-weight: 300;
+  }
+  .jobs-menu {
+    padding: 0;
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(6, 67, 189);
+  
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+a { text-decoration: none; color:black; }
+a:visited { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
+  body:hover {
+    background-color: rgba(6, 67, 189, 0.39);
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }

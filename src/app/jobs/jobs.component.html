@@ -1,10 +1,16 @@
-<h2>My Jobs</h2>
-
-<ul class="jobs">
-  <li *ngFor="let job of jobs">
-    <a routerLink="/detail/{{job.id}}">
-      <span class="badge">{{job.id}}</span> {{job.name}}
+<div class="jobs-menu">
+  <div  class="singlejobs" *ngFor="let job of jobs">
+    <body>
+    <!-- <a class="btn"  (click)="navigateToSecond()"style="text-decoration:none" routerLink="/detail/{{job.id}}"> -->
+      <a class="btn" style="text-decoration:none" routerLink="/detail/{{job.id}}">
+      <span class="badge">Opening #: {{job.id}}</span> 
+      <div>
+        <div>Title: {{job.name}}</div>
+        <div>Location: {{job.location}}</div>
+        
+      </div>
     </a>
-  </li>
-</ul>
+    </body>
+  </div>
+</div>
 

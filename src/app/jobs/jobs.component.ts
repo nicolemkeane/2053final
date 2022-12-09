@@ -23,4 +23,7 @@ export class JobsComponent implements OnInit {
     this.jobService.getJobs()
         .subscribe(jobs => this.jobs = jobs);
   }
+
+
 }
+
