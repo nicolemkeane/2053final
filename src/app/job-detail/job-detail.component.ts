@@ -34,5 +34,5 @@ export class JobDetailComponent {
   goBack(): void {
     this.location.back();
   }
-  }
 
+}

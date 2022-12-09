@@ -1,16 +1,20 @@
-<div *ngIf="job">
+<div *ngIf="job" class = "container">
 
     <h2>{{ job.name | uppercase }} Details</h2>
-    <div><span>id: </span>{{job.id}}</div>
-    <div>
-      <label for="job">Job name: {{job.name}}</label>
-      This is a descriptionnjnfn
-      dbdj jkds 
-      cbidjskc sdj
-      fbjeiwk fjewki
-       cdsjnajsoan msak
+    <div class="description">
+      {{job.description}}
     </div>
+    <div>{{job.source}}</div>
 
     <button type="button" (click)="goBack()">go back</button>
 
-  </div>
+<div class="heroes-menu">
+  
+  <a class="options" routerLink = "/detail/apply">
+    <span>Apply</span>
+  </a>
+    
+</div>
+</div>
+  <router-outlet></router-outlet>
+
