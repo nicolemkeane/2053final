@@ -2,7 +2,7 @@
   <div  class="singlejobs" *ngFor="let job of jobs">
     <body>
     <!-- <a class="btn"  (click)="navigateToSecond()"style="text-decoration:none" routerLink="/detail/{{job.id}}"> -->
-      <a class="btn" style="text-decoration:none" routerLink="/detail/{{job.id}}">
+      <a class="btn" style="text-decoration:none" href="/detail/{{job.id}}">
       <span class="badge">Opening #: {{job.id}}</span> 
       <div>
         <div>Title: {{job.name}}</div>

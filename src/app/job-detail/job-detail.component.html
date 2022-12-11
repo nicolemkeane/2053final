@@ -1,18 +1,15 @@
 <div *ngIf="job" class = "container">
 
-    <h2>{{ job.name | uppercase }} Details</h2>
+  <button type="button" (click)="goBack()">go back</button>
+    <div>
+  <h2>{{ job.name | uppercase }} Details</h2>
     <div class="description">
       {{job.description}}
     </div>
-    <div>{{job.source}}</div>
-
-    <button type="button" (click)="goBack()">go back</button>
-
+      <a class="options" href="{{job.source}}">More Information about {{job.name}}</a>
+      <a class="options" href="{{job.application}}">Apply</a>
 <div class="heroes-menu">
-  
-  <a class="options" routerLink = "/detail/apply">
-    <span>Apply</span>
-  </a>
+</div>
     
 </div>
 </div>

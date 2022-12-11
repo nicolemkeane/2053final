@@ -3,5 +3,13 @@
     border: solid;
     border-color: rgb(4, 49, 139);
     border-width: thick;
+    justify-content: center;
+    align-items: center
     }
+
+.page h1, .page h2 {
+    text-align: center;
+}
+
+
     

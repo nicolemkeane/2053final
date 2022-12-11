@@ -4,5 +4,6 @@ export interface Job {
     location: string;
     description: string,
     source: string,
-    modality: string
+    modality: string,
+    application: string
 }
